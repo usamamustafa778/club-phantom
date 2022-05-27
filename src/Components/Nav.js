@@ -2,11 +2,17 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container d-flex justify-content-between">
-        <a className="navbar-brand text-white" href="#">
-          Club Phantom
-        </a>
+        <ul className="social-icons text-white" href="#">
+          <li><a href="#"><img src="/images/icons/akar-icons_discord-fill.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/akar-icons_twitter-fill.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/bxl_spotify.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/bxl_youtube.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/Frame 100.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/InstagramLogo.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/Logomark-Transparent White 1.png" alt="" /></a></li>
+        </ul>
         <button
           className="navbar-toggler"
           type="button"
@@ -41,16 +47,6 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
               <ul
                 className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"

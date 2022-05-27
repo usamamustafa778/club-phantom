@@ -5,20 +5,28 @@
   background-position: center;
   padding: 0;
 }
+.navbar{
+  background-color: rgb(16, 16, 16);
+}
 .nav-link{
   color: white !important;
   font-weight: 400;
-  font-weight: 18px;
+  font-size: 18px !important;
+}
+.nav-link:hover{
+  color: aquamarine !important;
 }
 .navbar-brand{
   font-weight: 600;
 }
-
+.social-icons{
+  display: flex;
+  align-items: center;
+}
+.social-icons > li{
+  list-style: none;
+  margin-right: 10px;
+}
 
 @media screen and (max-width:800px) {
-  .navbar{background-color: white;}
-  .nav-link{color: black !important;}
-  .navbar-brand{
-    color: black !important;
-  }
 }
