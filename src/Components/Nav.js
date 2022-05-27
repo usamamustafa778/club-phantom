@@ -5,7 +5,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container d-flex justify-content-between">
         <a className="navbar-brand text-white" href="#">
-          Navbar
+          Club Phantom
         </a>
         <button
           className="navbar-toggler"
