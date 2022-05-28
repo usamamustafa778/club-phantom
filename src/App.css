@@ -1,23 +1,23 @@
 .banner{
-  min-height: 100vh;
+  min-height: 60vh;
   background-image: url(../public/images/banner.webp);
   background-size: cover;
   background-position: center;
   padding: 0;
 }
 .navbar{
-  background-color: rgb(16, 16, 16);
+  background-color: rgb(0, 0, 0);
 }
 .nav-link{
   color: white !important;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px !important;
 }
 .nav-link:hover{
   color: aquamarine !important;
 }
 .navbar-brand{
-  font-weight: 600;
+  font-weight: 730;
 }
 .social-icons{
   display: flex;

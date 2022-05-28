@@ -2,17 +2,14 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
-      <div className="container d-flex justify-content-between">
-        <ul className="social-icons text-white" href="#">
-          <li><a href="#"><img src="/images/icons/akar-icons_discord-fill.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/akar-icons_twitter-fill.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/bxl_spotify.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/bxl_youtube.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/Frame 100.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/InstagramLogo.png" alt="" /></a></li>
-          <li><a href="#"><img src="/images/icons/Logomark-Transparent White 1.png" alt="" /></a></li>
-        </ul>
+    <nav className="navbar navbar-expand-lg navbar-dark py-4">
+      <div className="container-fluid">
+        <div className="social-icons text-white" href="#">
+          <li><a href="#"><img src="/images/icons/discord.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/twitter.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/instagram.png" alt="" /></a></li>
+          <li><a href="#"><img src="/images/icons/telegram.png" alt="" /></a></li>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
