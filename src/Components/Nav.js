@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark py-4">
+    <nav className="navbar navbar-expand-lg navbar-dark py-4 px-1">
       <div className="container-fluid">
         <div className="social-icons text-white" href="#">
           <li><a href="#"><img src="/images/icons/discord.png" alt="" /></a></li>
